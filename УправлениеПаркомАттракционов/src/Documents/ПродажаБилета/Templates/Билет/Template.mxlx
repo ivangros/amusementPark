@@ -36,7 +36,7 @@
 	</columns>
 	<columns>
 		<id>5fb9ce94-86e2-4ff9-b190-05df643a8729</id>
-		<size>4</size>
+		<size>5</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -104,7 +104,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Аттракцион:</v8:content>
+							<v8:content>Тип билета:</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -112,7 +112,7 @@
 			<c>
 				<c>
 					<f>8</f>
-					<parameter>Аттракцион</parameter>
+					<parameter>Номенклатура</parameter>
 				</c>
 			</c>
 		</row>
@@ -128,7 +128,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма документа:</v8:content>
+							<v8:content>Количество посещений</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -136,14 +136,43 @@
 			<c>
 				<c>
 					<f>10</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КоличествоПосещений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<columnsID>5fb9ce94-86e2-4ff9-b190-05df643a8729</columnsID>
+			<c>
+				<i>1</i>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма документа:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>12</f>
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<height>6</height>
-	<vgRows>6</vgRows>
+	<height>7</height>
+	<vgRows>7</vgRows>
 	<merge>
 		<r>4</r>
 		<c>2</c>
@@ -164,7 +193,7 @@
 		<area>
 			<type>Rows</type>
 			<beginRow>3</beginRow>
-			<endRow>5</endRow>
+			<endRow>6</endRow>
 			<beginColumn>-1</beginColumn>
 			<endColumn>-1</endColumn>
 		</area>
@@ -178,10 +207,10 @@
 		<width>640</width>
 	</format>
 	<format>
-		<width>162</width>
+		<width>197</width>
 	</format>
 	<format>
-		<width>144</width>
+		<width>179</width>
 	</format>
 	<format>
 		<width>368</width>
@@ -204,6 +233,23 @@
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<autoIndent>0</autoIndent>
+	</format>
+	<format>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<format>
+			<v8:item>
+				<v8:lang>#</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 		<autoIndent>0</autoIndent>
 	</format>
 	<format>
