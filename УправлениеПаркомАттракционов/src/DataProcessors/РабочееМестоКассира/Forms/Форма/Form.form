@@ -650,13 +650,15 @@
         <items xsi:type="form:FormField">
           <name>СписокНоменклатурыНоменклатура</name>
           <id>79</id>
+          <title>
+            <key>ru</key>
+            <value>Номенклатура</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
+          <userVisible/>
           <dataPath xsi:type="form:DataPath">
-            <segments>СписокНоменклатуры.Номенклатура</segments>
+            <segments>СписокНоменклатуры.Ссылка</segments>
           </dataPath>
           <extendedTooltip>
             <name>СписокНоменклатурыНоменклатураРасширеннаяПодсказка</name>
@@ -1503,9 +1505,12 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокНоменклатуры.ЭтоГруппа</segments>
     </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокНоменклатуры.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	СправочникНоменклатура.Ссылка КАК Номенклатура,
+	СправочникНоменклатура.Ссылка КАК Ссылка,
 	СправочникНоменклатура.КоличествоПосещений,
 	ЦеныНоменклатурыСрезПоследних.Цена,
 	СправочникНоменклатура.ЭтоГруппа
