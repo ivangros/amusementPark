@@ -96,15 +96,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="de1a2db4-c2c3-42e8-9b30-d9d85a5e81ed">
-    <producedTypes>
-      <objectType typeId="1f020700-af19-4699-b271-c48770fd0eac" valueTypeId="829a6882-be80-4804-aa7e-565ef5028082"/>
-      <rowType typeId="cfd4949f-9d31-44e1-a7eb-29ee278ac00f" valueTypeId="18d4cf5a-2b14-4f83-9264-51b152bced68"/>
-    </producedTypes>
-    <name>ТабличнаяЧасть</name>
-    <synonym>
-      <key>ru</key>
-      <value>Табличная часть</value>
-    </synonym>
-  </tabularSections>
 </mdclass:Document>
