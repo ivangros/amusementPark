@@ -164,24 +164,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="76377ffd-2363-4f7e-8041-ecde530e1bed">
-    <name>Реквизит</name>
-    <synonym>
-      <key>ru</key>
-      <value>Реквизит</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="0480a78e-4ab4-4361-a405-c8f4d1d5bac5">
     <name>ФормаЭлемента</name>
     <synonym>
