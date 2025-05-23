@@ -23,21 +23,6 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
   </attributes>
-  <attributes uuid="cf10f8cf-5f49-4a63-a073-f6478e27ef12">
-    <name>Реквизит</name>
-    <synonym>
-      <key>ru</key>
-      <value>Реквизит</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <forms uuid="5b3fab38-8f2c-4861-8c5c-dec23017e118">
     <name>Форма</name>
     <synonym>
